@@ -1,0 +1,105 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 5px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+/* Navbar'ı ortala */
+.navbar {
+  text-align: center;
+}
+
+/* Navbar menüsünü ortala */
+.navbar-nav {
+  margin: 0 auto;
+  display: table;
+}
+
+/* Menü öğelerinin arasındaki boşluğu ayarla */
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+
+/* Menü öğesi metin rengini ayarla */
+.navbar-nav .nav-link {
+  color: #333;
+}
+
+/* Menü öğelerine fare imleci geldiğinde ve tıklama durumunda stil değişiklikleri */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #007bff;
+  background-color: transparent;
+}
+
+/* Aktif menü öğesi stilini ayarla */
+.navbar-nav .nav-link.active {
+  color: #fff;
+  background-color: #007bff;
+}
+
+main {
+  padding: 20px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#introduction,
+#content,
+#sharing {
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.code-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  white-space: pre-wrap; /* Kod bloğunu metin gibi görüntülemek için */
+  text-align: left; /* İçeriği sola hizala */
+}
+.code-box pre {
+  margin: 0 auto; /* İçeriği ortala */
+}
+.baslik{
+  color: brown;
+}
